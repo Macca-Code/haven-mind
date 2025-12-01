@@ -1,20 +1,25 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* Global Styles */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 2px;
-    padding: 0;
-    background-color: #f5f7fa;
-    color: #333;
+/* Google Fonts */
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
 }
 
-body {
-    font-family: 'Figtree', sans-serif;
-    margin: 2px;
-     background-color: #f5f7fa;
-    color: #333;
+.figtree-<uniquifier> {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
+.logo img {
+    position: relative;
+    right: 15px;
+    top: 0;
+}
 
