@@ -11,8 +11,7 @@ body {
   scroll-behavior: smooth;
 }
 
-h1,
-h2, {
+h1, h2 {
   font-family: 'Figtree', sans-serif;
   color: #333;
 }
@@ -20,8 +19,7 @@ h2, {
 #hero{
     background: url("../image/hero-image.png");
     background-size: cover;
-    background-repeat: repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center center;
     overflow: hidden;
 }
@@ -83,19 +81,10 @@ h2, {
   box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
-.btn-primary {
-  background-color: #333;
-  border: none;
-  border-radius: 25px;
-  padding: 8px 16px;
-}
-
-.btn-primary:hover {
-  background-color:#333;
-}
 
 section {
   padding: 70px 0;
+
 }
 
 section h2 {
@@ -103,7 +92,6 @@ section h2 {
   text-align: center;
   color: #333;
 }
-
 
 footer {
   background: #eef2f7;
