@@ -1,50 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Meta tags for search engines -->
-  <meta name="description" content="HavenMind - Your sanctuary for mental well-being.">
-  <meta name="keywords" content="mental health, well-being, mindfulness, therapy, support">
-  <!-- Title -->
-  <title>HavenMind</title>
-  <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HavenMind</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="index.html">HavenMind | Mental Health Awareness</a>
+        <a class="navbar-brand" href="#hero"
+          >HavenMind | Mental Health Awareness</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
+          data-bs-target="#navbarMenu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" href="#hero">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#signs">Signs</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#support">Support</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
@@ -52,14 +47,77 @@
         </div>
       </div>
     </nav>
-     <!-- header -->
-    <header id="hero" class="container">
-      <!-- section with hero image -->
-      <section class="row">
-        <!-- text-center class used to centre all text inside column -->
-        <div class="col-12 text-center">
-          <h1 class="display-4 my-4">HavenMind</h1>
-          <!-- mb-5 gives extra margin spacing under subheading -->
-          <h2 class="display-6 mb-5">Sanctuary for Mental Well-being</h2>
-</body>
+
+    <!-- Hero section -->
+    <header id="hero" class="container text-center py-6">
+      <h1 class="display-4">HavenMind</h1>
+      <h2 class="display-6 mb-4">Sanctuary for Mental Well-being</h2>
+    </header>
+
+    <!-- Card section -->
+    <section id="cards" class="container py-5">
+      <h2 class="text-center mb-4">Signs</h2>
+
+      <div class="card-container d-flex flex-wrap justify-content-center gap-3">
+        <div class="card" style="width: 18rem">
+          <img src="image1.jpg" class="card-img-top" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 1</h5>
+            <p class="card-text">
+              This is a short description for the first card.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="image2.jpg" class="card-img-top" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 2</h5>
+            <p class="card-text">
+              This is a short description for the second card.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="image3.jpg" class="card-img-top" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 3</h5>
+            <p class="card-text">
+              This is a short description for the third card.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="image3.jpg" class="card-img-top" alt="Card Image">
+          <div class="card-body">
+            <h5 class="card-title">Card Title 4</h5>
+            <p class="card-text">
+              This is a short description for the fourth card.
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="support" class="container py-5">
+      <h2 class="text-center mb-4">Support</h2>
+      <p class="text-center">
+        If you or someone you know is struggling with mental health, please
+        reach out for support. You are not alone.
+      </p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center p-3 mt-4">
+      © 2025 HavenMind. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
