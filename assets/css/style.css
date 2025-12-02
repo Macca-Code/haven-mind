@@ -16,8 +16,8 @@ h1, h2 {
   color: #333;
 }
 
-#hero{
-    background: url("../image/hero-image.png");
+#hero {
+    background: url("../image/Sunset.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -48,11 +48,11 @@ h1, h2 {
 }
 
 #hero h1 {
-  color: #333;
+  color: #eef2f7;
 }
 
 #hero h2 {
-  color: #333;
+  color: #eef2f7;
 }
 
 .card-container {
@@ -75,12 +75,6 @@ h1, h2 {
   height: 180px;
   object-fit: cover;
 }
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-}
-
 
 section {
   padding: 70px 0;
