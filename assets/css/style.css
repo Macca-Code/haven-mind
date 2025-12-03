@@ -4,7 +4,7 @@
 /* Fonts */
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: lightgrey;
+  background-color: #c0c2c6;
   color: #333;
   margin: 0;
   padding: 0;
@@ -108,6 +108,8 @@ section h2 {
 /*Relax Section */
 section#relax {
   background: #f9fafe;
+  
+
   
 }
 
