@@ -1,7 +1,7 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* Fonts */
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #aaaa;
@@ -11,15 +11,18 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Body Padding */
 body {
   padding-top: 40px;
 }
 
-h1, h2 {
+/* Headings */
+h1, h2, h3 {
   font-family: 'Figtree', sans-serif;
-  color: #333;
+  color: #ffffff;
 }
 
+/* Hero Section */
 #hero {
     width: 100%;
     background: url("../image/Sunset.png");
@@ -27,8 +30,9 @@ h1, h2 {
     background-repeat: no-repeat;
     background-position: center center;
     overflow: hidden;
-}
+  }
 
+/* Navbar */
 .navbar {
   background: #eef2f7 !important;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
@@ -48,18 +52,27 @@ h1, h2 {
   color: #333 !important;
 }
 
+/* Hero Content */
 #hero {
   padding: 80px 20px;
 }
 
 #hero h1 {
   color: #eef2f7;
+  text-shadow: #333 2px 2px 4px;
 }
 
 #hero h2 {
   color: #eef2f7;
+  text-shadow: #333 1px 1px 3px;
 }
 
+#hero h3 {
+  color: #eef2f7;
+  text-shadow: #333 1px 1px 2px;
+}
+
+/* Card Section */
 .card-container {
   display: flex;
   justify-content: center;
@@ -92,6 +105,17 @@ section h2 {
   color: #333;
 }
 
+/*Relax Section */
+
+
+
+/* Support Section */
+
+
+
+
+
+/* Footer */
 footer {
   background: #eef2f7;
   color: #333;
@@ -99,6 +123,7 @@ footer {
   padding: 15px;
 }
 
+/* Social Icons */
 .socialicons {
   list-style: none;
   padding: 0;
@@ -118,6 +143,7 @@ footer {
   color: #333;
 }
 
+/* Responsive Design */
 @media (max-width: 576px) {
   #hero h1 { font-size: 2.2rem; }
   #hero h2 { font-size: 1.4rem; }
