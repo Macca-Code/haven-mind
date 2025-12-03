@@ -30,7 +30,8 @@
     <nav class="navbar navbar-expand-sm bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="#hero">
-        <img src="assets/image/icon.png" alt="HavenMind Logo" width="40" height="40" class="me-3">HavenMind</a> 
+        <img src="assets/image/icon.png" alt="HavenMind Logo" width="40" height="40" class="me-3">HavenMind</a>
+        
         <button
           class="navbar-toggler"
           type="button"
@@ -51,10 +52,10 @@
               <a class="nav-link" href="#cards">Signs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#support">Support</a>
+              <a class="nav-link" href="#relax">Relax</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact Us</a>
+              <a class="nav-link" href="#support">Support</a>
             </li>
           </ul>
         </div>
@@ -65,7 +66,31 @@
     <header id="hero" class="container text-center py-7 mt-3">
       <h1 class="display-4">HavenMind</h1>
       <h2 class="display-6 mb-4">Sanctuary for Mental Well-being</h2>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#contactForm" aria-expanded="false" aria-controls="contactForm">Contact Us</button>
     </header>
+
+    <!-- Contact Section -->
+  <div class="collapse" id="contactForm">
+    <section id="contact" class="container py-5">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="_replyto" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </section>
+  </div>
+  
 
     <!-- Card section -->
     <section id="cards" class="container py-5">
@@ -119,22 +144,16 @@
         If you or someone you know is struggling with mental health, please
         reach out for support. You are not alone.
       </p>
-    <p class="text-center">
-       Here are some helpful resources:
-      <a href="https:////www.nhs.uk/nhs-services/mental-health-services/" target="_blank" rel="noopener">NHS</a> |
-      <a href="https://www.mind.org.uk/" target="_blank" rel="noopener">MindUK</a> |
-      <a href="https://www.samaritans.org" target="_blank" rel="noopener">Samaritans</a> |
-      <a href="https://livingwellconsortium.com/" target="_blank" rel="noopener">Living Well</a>
-    </p>
+      <p class="text-center">
+         Here are some helpful resources:
+        <a href="https:////www.nhs.uk/nhs-services/mental-health-services/" target="_blank" rel="noopener">NHS</a> |
+        <a href="https://www.mind.org.uk/" target="_blank" rel="noopener">MindUK</a> |
+        <a href="https://www.samaritans.org" target="_blank" rel="noopener">Samaritans</a> |
+        <a href="https://livingwellconsortium.com/" target="_blank" rel="noopener">Living Well</a>
+      </p>
     </section>
 
-    
-
-  
-
-
-  
-
+    <!-- Footer -->
     <footer>
       <div class="container-fluid py-2 text-center">
           <ul class="socialicons">
