@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f7f9fb;
+  background-color: #aaaa;
   color: #333;
   margin: 0;
   padding: 0;
@@ -21,6 +21,7 @@ h1, h2 {
 }
 
 #hero {
+    width: 100%;
     background: url("../image/Sunset.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -96,6 +97,25 @@ footer {
   color: #333;
   font-size: 14px;
   padding: 15px;
+}
+
+.socialicons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.socialicons li a {
+  color: #333;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.socialicons li a:hover {
+  color: #333;
 }
 
 @media (max-width: 576px) {
