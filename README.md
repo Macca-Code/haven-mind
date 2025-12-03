@@ -17,6 +17,9 @@ This website provides accessible mental health information, practical tools, and
 # Usage
 
 # Screenshots
+![Wireframe](<Screenshot 2025-12-03 071723.png>)
+![Project Board](<Screenshot 2025-12-03 073003.png>)
+
 
 # Contact
 
