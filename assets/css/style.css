@@ -113,6 +113,16 @@ section h2 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* Support Section */
+#support {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 16px !important;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 /* Footer */
 footer {
   background: #eef2f7;
