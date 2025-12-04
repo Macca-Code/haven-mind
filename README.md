@@ -45,13 +45,13 @@ No login, tracking, or personal data collection—users can seek support without
 Lightweight structure for quick access, even on slow connections.
 
 # Tech Stack
-HTML
-CSS
+HTML,
+CSS,
 CO Pilot
 
 # Testing
-The W3C HTML Markup Validation Service
-The W3C CSS Validation Service
+The W3C HTML Markup Validation Service,
+The W3C CSS Validation Service,
 Lighthouse 
 
 
