@@ -52,12 +52,20 @@ CO Pilot
 # Testing
 The W3C HTML Markup Validation Service,
 The W3C CSS Validation Service,
-Lighthouse 
+Lighthouse.
 
+# Error & Debugging 
+![CSS Pass](<Screenshot 2025-12-04 075107.png>)
+![HTML Fail 1](<Screenshot 2025-12-04 074921.png>)
+![HTML Fail 2](<Screenshot 2025-12-04 082011.png>)
+![HTML Pass](<Screenshot 2025-12-04 082514.png>)
+![Lighthouse (Desktop) Test 1](<Screenshot 2025-12-04 074601.png>)
+![Lighthouse (Mobile) Test 1](<Screenshot 2025-12-04 074732.png>)
 
 # Screenshots
 ![Wireframe](<Screenshot 2025-12-03 071723.png>)
 ![Project Board](<Screenshot 2025-12-03 073003.png>)
+![Project Board Finshed](<Screenshot 2025-12-04 072239.png>)
 
 
 # Contact
