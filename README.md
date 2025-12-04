@@ -9,6 +9,7 @@ This website offers clear, supportive mental health information and resources fo
 - [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 # About the Project
+![Hero](<Screenshot 2025-12-04 094143.png>)
 This website provides accessible mental health information, practical tools, and supportive resources to help people better understand emotional well-being. Its purpose is to raise awareness, reduce stigma, and make guidance easy to find. By offering clear, trustworthy support, the website helps solve the problem of limited mental health knowledge and the barriers that keep many from seeking help.
 # Features
 
@@ -20,11 +21,11 @@ Mental Health Resources:
 
 Provides quick access to essential information on stress, anxiety, mindfulness, and emotional well-being.
 
- Immediate Support Links:
+Immediate Support Links:
 
 Includes prominent links and buttons professional help, and trusted mental-health organizations.
 
- Guided Self-Help Tips:
+Guided Self-Help Tips:
 
 Offers short, evidence-based coping strategies like breathing exercises, grounding techniques, and positive habits.
 
@@ -32,27 +33,32 @@ Calming Visual Design:
 
 Uses soft colors, whitespace, and accessible typography to foster a peaceful and comforting experience.
 
- Fully Responsive:
+Fully Responsive:
 
 Optimized for all devices—mobile,and desktop—to ensure support is accessible anywhere.
 
- Privacy-First:
+Privacy-First:
 
 No login, tracking, or personal data collection—users can seek support without worry.
 
- Fast Loading:
+Fast Loading:
 
 Lightweight structure for quick access, even on slow connections.
 
 # Tech Stack
-HTML,
-CSS,
+HTML
+
+CSS
+
 CO Pilot
 
 # Testing
-The W3C HTML Markup Validation Service,
-The W3C CSS Validation Service,
-Lighthouse.
+The W3C HTML Markup Validation Service
+
+The W3C CSS Validation Service
+
+Lighthouse
+
 
 # Error & Debugging 
 ![CSS Pass](<Screenshot 2025-12-04 075107.png>)
@@ -73,4 +79,15 @@ Lighthouse.
 
 # Acknowledgments
 Richard M 
+
+# Credit 
+NHS Logo
+
+Mind Logo 
+
+Samaritans Logo
+
+Living Well Logo
+
+Copright free and allowed to use on Websites.
 
