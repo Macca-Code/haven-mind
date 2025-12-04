@@ -67,6 +67,8 @@ Lighthouse
 ![HTML Pass](<Screenshot 2025-12-04 082514.png>)
 ![Lighthouse (Desktop) Test 1](<Screenshot 2025-12-04 074601.png>)
 ![Lighthouse (Mobile) Test 1](<Screenshot 2025-12-04 074732.png>)
+![Lighthouse (Desktop) Final Test](<Screenshot 2025-12-04 101901.png>)
+![Lighthouse (Mobile) Final Test](<Screenshot 2025-12-04 102130.png>)
 
 # Screenshots
 ![Wireframe](<Screenshot 2025-12-03 071723.png>)
