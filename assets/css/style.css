@@ -151,6 +151,11 @@ footer {
   color: #333;
 }
 
+a {
+  color: rgb(15, 14, 14);
+  font-weight: bold
+}
+
 /* Responsive */
 @media (max-width: 576px) {
   #hero h1 {
